@@ -4,7 +4,7 @@ We are going to build a user-friendly news research tool designed for effortless
 ### Features
 
 - Load URLs to fetch article content.
-- Process article content through LangChain's UnstructuredURL Loader
+- Process article content through LangChain's webbaseLoader
 - Construct an embedding vector using HuggingFace embeddings and leverage ChromaDB as the vectorstore, to enable swift and effective retrieval of relevant information.
 - Interact with the LLM's (Llama3 via Groq) by inputting queries and receiving answers along with source URLs.
 
